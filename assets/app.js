@@ -124,10 +124,13 @@ document.addEventListener('DOMContentLoaded', () =>{
                 const newSquare = document.getElementById(newId)
                 click(newSquare)
             }
-
+             
 
         },10)
 
     }
+    function gameOver(square=>{
+        //stopped here
+    })
 
 })
